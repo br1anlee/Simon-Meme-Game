@@ -18,7 +18,7 @@ The tech that is involved in this project is HTML, CSS, Javascript and Document 
 
 ### Wireframe
 ---
-![wireframe](./IMG_0941.jpg)
+![wireframe](./images/IMG_0941.jpg)
 
 
 ### Stretch Goals
