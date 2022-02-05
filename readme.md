@@ -9,7 +9,8 @@ The tech that is involved in this project is HTML, CSS, Javascript, Bootstrap an
 
 ### MVP
 ---
-- Render a start screen with a start button
+- Render a start screen with a start button and an instructions button.
+- Customize the cursor to a picture
 - Render game screen displaying the game status that includes the longest streak and a timer. If a player either wins or loses the game, a text will be displayed on the game status screen. A MEME picture will be shown below the text as well to provide entertainment.
 - Create 4 responsive buttons for the player to click (Each button will have a picture of a MEME)
 - Render a screen under the game screen displaying a Nyan Cat gif or any meme gif that is constantly running in the background (Just for fun).
@@ -27,3 +28,4 @@ The tech that is involved in this project is HTML, CSS, Javascript, Bootstrap an
 - Timer becomes shorter as the sequence gets longer 
 - Create a quit button and once the button is clicked a popup will appear asking the user again if they want to quit the game (a picture of a meme will be under that)
 - Adding background music & SFX to all elements (Add an option button that has a mute all music function.)
+- Have the cursor image change on every screen

@@ -1,4 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 * {
     padding: 0px;
     margin: 0px;
+    /* cursor: url('/images/cursor.png'), pointer; */
 }
+
+:root {
+    --primary-color: white;
+}
+
+body {
+    background-image: url("/images/nyan.gif");
+    background-size: 380px auto;
+    background-repeat: repeat;
+}
+
+/* CSS FOR MAIN MENU */
+.mainMenu {
+    color: var(--primary-color);
+    height: 100%;
+    width: 100%;
+}
+
+.title {
+    font-size: 5rem;  
+    text-align: center; 
+    font-weight: bold;
+}
+
+.startButton {
+    text-align: center;
+    margin: 120px auto;
+    font-size: 3rem;
+}
+
+.toast-body {
+    color: black;
+}
+
+/* CSS FOR INSTRUCTION SCREEN */
