@@ -2,11 +2,12 @@
 * {
     padding: 0px;
     margin: 0px;
-    /* cursor: url('/images/cursor.png'), pointer; */
+    cursor: auto;
 }
 
 :root {
     --primary-color: white;
+    --primary-cursor: pointer;
 }
 
 body {
@@ -21,7 +22,6 @@ body {
     color: var(--primary-color);
     height: 100%;
     width: 100%;
-    display: none;
 }
 
 .titleMenu {
@@ -34,20 +34,28 @@ body {
     text-align: center;
     margin: 120px auto;
     font-size: 3rem;
+    cursor: var(--primary-cursor);
 }
 
 .instruction {
     text-align: center;
     margin: 120px auto;
     font-size: 3rem;
+    cursor: var(--primary-cursor);
 }
 
 /* CSS FOR INSTRUCTION SCREEN */
 .instructionScreen {
-    display: none;
+  color: white;
+  font-weight: bold;
 }
 
+.returnButton {
+  cursor: var(--primary-cursor);
+}
 /* GAMEBOARD */
+
+
 .container {
     display: block;
     width: 50%;
@@ -86,4 +94,12 @@ body {
   .pressed {
     box-shadow: 0 0 20px white;
     background-color: grey;
+  }
+
+
+
+
+  /* HIDE THE ELEMENTS */
+  .hidden {
+    display: none;
   }
