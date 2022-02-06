@@ -11,17 +11,3 @@ let = nextSequence = () => {
     const randomChosenColor = buttonColors[randomNumber]
     gamePattern.push(randomChosenColor)
 }
-
-
-
-
-
-// Toasty for instructions
-let option = {
-    animation: true
-}
-document.querySelector("#toastbtn").onclick = function () {
-    const myAlert = document.getElementById("EpicToast");
-    const bsAlert = new bootstrap.Toast(myAlert, option);
-    bsAlert.show();
-}

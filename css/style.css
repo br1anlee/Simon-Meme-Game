@@ -10,6 +10,7 @@
 }
 
 body {
+    text-align: center;
     background-image: url("/images/nyan.gif");
     background-size: 380px auto;
     background-repeat: repeat;
@@ -20,22 +21,69 @@ body {
     color: var(--primary-color);
     height: 100%;
     width: 100%;
+    display: none;
 }
 
-.title {
+.titleMenu {
     font-size: 5rem;  
     text-align: center; 
     font-weight: bold;
 }
 
-.startButton {
+.playButton {
     text-align: center;
     margin: 120px auto;
     font-size: 3rem;
 }
 
-.toast-body {
-    color: black;
+.instruction {
+    text-align: center;
+    margin: 120px auto;
+    font-size: 3rem;
 }
 
 /* CSS FOR INSTRUCTION SCREEN */
+.instructionScreen {
+    display: none;
+}
+
+/* GAMEBOARD */
+.container {
+    display: block;
+    width: 50%;
+    margin: auto;
+  }
+  
+  .btn {
+    margin: 25px;
+    display: inline-block;
+    height: 200px;
+    width: 200px;
+    border: 10px solid black;
+  }
+
+.red {
+    background-image: url(/images/kid.jpeg);
+    background-size: 100%;  
+
+  }
+  
+  .green {
+    background-image: url(/images/dog.jpeg);
+    background-size: 100%;
+  }
+  
+  .blue {
+    background-image: url(/images/google.jpeg);
+    background-size: 100%;
+  }
+  
+  .yellow {
+    background-image: url(/images/toby.png);
+    background-size: 100%;
+  }
+  
+  .pressed {
+    box-shadow: 0 0 20px white;
+    background-color: grey;
+  }
