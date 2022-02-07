@@ -2,12 +2,13 @@
 * {
     padding: 0px;
     margin: 0px;
-    cursor: auto;
+    cursor: pointer;
 }
 
 :root {
     --primary-color: white;
     --primary-cursor: pointer;
+    --computer-color: green;
 }
 
 body {
@@ -46,13 +47,18 @@ body {
 
 /* CSS FOR INSTRUCTION SCREEN */
 .instructionScreen {
-  color: white;
+  color: var(--primary-color);
   font-weight: bold;
 }
 
 .returnButton {
   cursor: var(--primary-cursor);
+  color: var(--primary-color);
+  font-weight: bold;
 }
+
+/* RETURN BUTTON */
+
 /* GAMEBOARD */
 
 
@@ -67,18 +73,20 @@ body {
     display: inline-block;
     height: 200px;
     width: 200px;
-    border: 10px solid black;
+    border: 5px solid black;
   }
 
 .red {
     background-image: url(/images/kid.jpeg);
     background-size: 100%;  
+    /* background-color: red; */
 
   }
   
   .green {
     background-image: url(/images/dog.jpeg);
     background-size: 100%;
+    /* background-color: green; */
   }
   
   .blue {
@@ -91,12 +99,29 @@ body {
     background-size: 100%;
   }
   
-  .pressed {
-    box-shadow: 0 0 20px white;
-    background-color: grey;
+
+  .gameReturnBtn {
+    color: var(--primary-color);
+    cursor: var(--primary-cursor);
   }
 
 
+#levelTitle {
+  color: var(--primary-color);
+  font-size: 2rem;
+}
+
+
+.btn:active {
+  box-shadow: 7px 7px 10px white;
+  transform: translateY(5px);
+  border-width: 10px;
+}
+
+
+.add {
+  box-shadow: 10px 10px 10px var(--computer-color);
+}
 
 
   /* HIDE THE ELEMENTS */
