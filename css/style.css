@@ -6,14 +6,14 @@
 }
 
 :root {
-    --primary-color: black;
+    --primary-color: white;
     --primary-cursor: pointer;
     --computer-color: green;
 }
 
 body {
     text-align: center;
-    /* background-image: url("/images/nyan.gif"); */
+    background-image: url("/images/nyan.gif");
     background-size: 380px auto;
     background-repeat: repeat;
 }
@@ -76,6 +76,11 @@ body {
     border: 5px solid black;
   }
 
+  .row {
+    display: block;
+
+  }
+
 .red {
     background-image: url(/images/kid.jpeg);
     background-size: 100%;  
@@ -121,6 +126,10 @@ body {
 
 .add {
   box-shadow: 10px 10px 10px var(--computer-color);
+}
+
+.restart {
+  color: var(--primary-color);
 }
 
 

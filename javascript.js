@@ -24,6 +24,7 @@ function startGameMenu () {
     instructionBtn.classList.add('hidden');
     gameBoard.classList.remove('hidden');
     gameReturnBtn.classList.remove('hidden');
+    pressEnter()
 }
 // Event listener for game start button
 playButton.addEventListener('click', startGameMenu)
@@ -64,13 +65,22 @@ gameReturnBtn.addEventListener('click', returnPageMenu)
 
 // Pressing enter to start the game
 const levelTitle = document.querySelector('#levelTitle')
-document.addEventListener('keypress', function (event) {
-    if (event.key == 'Enter' && !gameStarted) {
-        gameStarted = true;
-        levelTitle.innerText = "Level " + level
-        nextSequence()
-    }
-})
+function pressEnter () {
+    document.addEventListener('keypress', function (event) {
+        if (event.key == 'Enter' && !gameStarted) {
+            gameStarted = true;
+            levelTitle.innerText = "Level " + level
+            nextSequence()
+        }
+    })
+}
+// document.addEventListener('keypress', function (event) {
+//     if (event.key == 'Enter' && !gameStarted) {
+//         gameStarted = true;
+//         levelTitle.innerText = "Level " + level
+//         nextSequence()
+//     }
+// })
 
 
 // Create a function that randomly generates a number between 0 - 3 (1 - 4)
@@ -85,7 +95,7 @@ function nextSequence() {
     document.getElementById(randomChosenColor).classList.add('add');
     setTimeout(() => {
         document.getElementById(randomChosenColor).classList.remove('add')
-    }, 1000);
+    }, 600);
 }
 
 
@@ -102,23 +112,54 @@ for (let i = 0; i < button.length; i++) {
 
 // Game win conditional
 function checkGame () {
-    if (gamePattern[buttonInputRequirementLevel - 1] === playerClickedColor[buttonInputRequirementLevel - 1]) {
-    } else {
-        gameStarted = false;
-}
+    if (gamePattern[buttonInputRequirementLevel - 1] === playerClickedColor[buttonInputRequirementLevel - 1])
+     {
+    } 
+    else 
+    {
+        return loseGame()
+    }  
+    if (buttonInputRequirementLevel === 12){
+        winGame();
+    }
     if (buttonInputRequirementLevel === level){
         buttonInputRequirementLevel = 1;
     setTimeout(function() {
         nextSequence();
     }, 1000);
-} else {
+} 
+    else 
+    {
     buttonInputRequirementLevel++; 
     }
 }
 
 
+function winGame () {
 
+    levelTitle.innerText = "You win!!"
+    restart.classList.remove('hidden')
+    gameStarted = false;
+    level = 0
+}
 // Game lose conditional
 function loseGame () {
-    // 
+    // let the player know you lost
+    levelTitle.innerText = "You lost!"
+    level = 0
+    gameStarted = false;
+    restart.classList.remove('hidden');
+    
 }
+
+// Restart Button that clears the board and the array
+const restart = document.querySelector(".restart")
+restart.addEventListener('click', function () {
+    gamePattern = []
+    playerClickedColor = []
+    gameStarted = false;
+    levelTitle.innerText = "Press Enter to Start"
+    level = 0
+
+    startGameMenu()
+})
