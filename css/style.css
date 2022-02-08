@@ -6,14 +6,14 @@
 }
 
 :root {
-    --primary-color: white;
+    --primary-color: black;
     --primary-cursor: pointer;
     --computer-color: green;
 }
 
 body {
     text-align: center;
-    background-image: url("/images/nyan.gif");
+    /* background-image: url("/images/nyan.gif"); */
     background-size: 380px auto;
     background-repeat: repeat;
 }

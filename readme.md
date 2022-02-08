@@ -5,17 +5,16 @@ Have you ever wondered how good your memorization skill is? If you were wonderin
 
 ### The Tech 
 ---
-The tech that is involved in this project is HTML, CSS, Javascript, Bootstrap and Document Object Model (DOM).
+The tech that is involved in this project is HTML, CSS, Javascript and Document Object Model (DOM).
 
 ### MVP
 ---
 - Render a start screen with a start button and an instructions button.
 - Customize the cursor to a picture
-- Render game screen displaying the game status that includes the longest streak and a timer. If a player either wins or loses the game, a text will be displayed on the game status screen. A MEME picture will be shown below the text as well to provide entertainment.
+- Render game screen displaying the game status that includes the level. If a player either wins or loses the game, a text will be displayed on the game status screen.
 - Create 4 responsive buttons for the player to click (Each button will have a picture of a MEME)
-- Render a screen under the game screen displaying a Nyan Cat gif or any meme gif that is constantly running in the background (Just for fun).
-- Create a max of 10 ~ 14 sequences for the game.
-- Create a mute button that mutes all sound.
+- Background image with an image gif
+- Create a max of 12 sequences for the game.
 
 ### Wireframe
 ---
