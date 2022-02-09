@@ -51,15 +51,16 @@ body {
   font-weight: bold;
 }
 
+
+.instructions {
+  
+}
 .returnButton {
   cursor: var(--primary-cursor);
   color: var(--primary-color);
   font-weight: bold;
 }
 
-/* RETURN BUTTON */
-
-/* GAMEBOARD */
 
 
 .container {
