@@ -13,7 +13,7 @@
 
 body {
     text-align: center;
-    background-image: url("/images/nyan.gif");
+    background-image: url("./images/nyan.gif");
     background-size: 380px auto;
     background-repeat: repeat;
 }
@@ -53,7 +53,7 @@ body {
 
 
 .instructions {
-  
+
 }
 .returnButton {
   cursor: var(--primary-cursor);
