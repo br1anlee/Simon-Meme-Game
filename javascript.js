@@ -23,7 +23,6 @@ function startGameMenu () {
     playButton.classList.add('hidden');
     instructionBtn.classList.add('hidden');
     gameBoard.classList.remove('hidden');
-    gameReturnBtn.classList.remove('hidden');
     pressEnter()
 }
 // Event listener for game start button
@@ -38,8 +37,6 @@ function instructionPageMenu () {
     instructionBtn.classList.add('hidden')
     instructionScreen.classList.remove('hidden');
     returnButton.classList.remove('hidden');
-    gameReturnBtn.classList.add('hidden');
-
 }
 
 // Return button that returns from the instruction page
@@ -48,19 +45,12 @@ function returnPageMenu () {
     instructionBtn.classList.remove('hidden');
     returnButton.classList.add('hidden');
     instructionScreen.classList.add('hidden');
-    gameReturnBtn.classList.add('hidden');
     gameBoard.classList.add('hidden');
 }
 // Event listeners for the instruction page and return button
 returnButton.addEventListener('click', returnPageMenu)
 instructionBtn.addEventListener('click', instructionPageMenu)
 
-
-// Game Screen return Button
-const gameReturnBtn = document.querySelector('.gameReturnBtn')
-
-// Event listener for return button in gameboard to return to main menu
-gameReturnBtn.addEventListener('click', returnPageMenu)
 
 
 // Pressing enter to start the game
@@ -74,14 +64,6 @@ function pressEnter () {
         }
     })
 }
-// document.addEventListener('keypress', function (event) {
-//     if (event.key == 'Enter' && !gameStarted) {
-//         gameStarted = true;
-//         levelTitle.innerText = "Level " + level
-//         nextSequence()
-//     }
-// })
-
 
 // Create a function that randomly generates a number between 0 - 3 (1 - 4)
 function nextSequence() {
@@ -119,7 +101,7 @@ function checkGame () {
     {
         return loseGame()
     }  
-    if (buttonInputRequirementLevel === 12){
+    if (buttonInputRequirementLevel === 10){
         winGame();
     }
     if (buttonInputRequirementLevel === level){
@@ -160,6 +142,6 @@ restart.addEventListener('click', function () {
     gameStarted = false;
     levelTitle.innerText = "Press Enter to Start"
     level = 0
-
     startGameMenu()
 })
+

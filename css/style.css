@@ -1,140 +1,144 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 * {
-    padding: 0px;
-    margin: 0px;
-    cursor: pointer;
+  padding: 0px;
+  margin: 0px;
+  cursor: pointer;
 }
 
 :root {
-    --primary-color: white;
-    --primary-cursor: pointer;
-    --computer-color: green;
+  --primary-color: orange;
+  --primary-cursor: pointer;
+  --computer-color: green;
 }
 
 body {
-    text-align: center;
-    background-image: url("../images/nyan.gif");
-    background-size: 380px auto;
-    background-repeat: repeat;
+  text-align: center;
+  background-image: url("../images/nyan.gif");
+  background-size: 380px auto;
+  background-repeat: repeat;
 }
 
 /* CSS FOR MAIN MENU */
 .mainMenu {
-    color: var(--primary-color);
-    height: 100%;
-    width: 100%;
+  color: var(--primary-color);
+  height: 100%;
+  width: 100%;
 }
 
 .titleMenu {
-    font-size: 5rem;  
-    text-align: center; 
-    font-weight: bold;
+  font-size: 5rem;  
+  text-align: center; 
+  font-weight: bold;
 }
 
 .playButton {
-    text-align: center;
-    margin: 120px auto;
-    font-size: 3rem;
-    cursor: var(--primary-cursor);
+  text-align: center;
+  margin: 150px auto;
+  font-size: 3rem;
+  cursor: var(--primary-cursor);
 }
 
 .instruction {
-    text-align: center;
-    margin: 120px auto;
-    font-size: 3rem;
-    cursor: var(--primary-cursor);
+  text-align: center;
+  margin: 60px auto;
+  font-size: 3rem;
+  cursor: var(--primary-cursor);
 }
 
 /* CSS FOR INSTRUCTION SCREEN */
 .instructionScreen {
-  color: var(--primary-color);
-  font-weight: bold;
+color: var(--primary-color);
+font-weight: bold;
 }
 
 
 .instructions {
-
+margin: 200px;
+font-size: 24px;
 }
+
 .returnButton {
-  cursor: var(--primary-cursor);
-  color: var(--primary-color);
-  font-weight: bold;
+cursor: var(--primary-cursor);
+color: var(--primary-color);
+font-weight: bold;
+font-size: 32px;
 }
 
-
+/* GAMEBOARD */
 
 .container {
-    display: block;
-    width: 50%;
-    margin: auto;
-  }
-  
-  .btn {
-    margin: 25px;
-    display: inline-block;
-    height: 200px;
-    width: 200px;
-    border: 5px solid black;
-  }
+  display: block;
+  width: 50%;
+  margin: auto;
+}
 
-  .row {
-    display: block;
+.btn {
+  margin: 25px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 5px solid black;
+}
 
-  }
+.row {
+  display: block;
+
+}
 
 .red {
-    background-image: url(../images/kid.jpeg);
-    background-size: 100%;  
-    /* background-color: red; */
+  background-image: url(../images/kid.jpeg);
+  background-size: 100%;  
+  /* background-color: red; */
 
-  }
-  
-  .green {
-    background-image: url(..images/dog.jpeg);
-    background-size: 100%;
-    /* background-color: green; */
-  }
-  
-  .blue {
-    background-image: url(../images/google.jpeg);
-    background-size: 100%;
-  }
-  
-  .yellow {
-    background-image: url(../images/toby.png);
-    background-size: 100%;
-  }
-  
+}
 
-  .gameReturnBtn {
-    color: var(--primary-color);
-    cursor: var(--primary-cursor);
-  }
+.green {
+  background-image: url(../images/dog.jpeg);
+  background-size: 100%;
+  /* background-color: green; */
+}
+
+.blue {
+  background-image: url(../images/google.jpeg);
+  background-size: 100%;
+}
+
+.yellow {
+  background-image: url(../images/toby.png);
+  background-size: 100%;
+}
+
+
+.gameReturnBtn {
+  color: var(--primary-color);
+  cursor: var(--primary-cursor);
+}
 
 
 #levelTitle {
-  color: var(--primary-color);
-  font-size: 2rem;
+color: var(--primary-color);
+font-size: 2rem;
 }
 
 
 .btn:active {
-  box-shadow: 7px 7px 10px white;
-  transform: translateY(5px);
-  border-width: 10px;
+box-shadow: 7px 7px 10px white;
+transform: translateY(5px);
+border-width: 10px;
 }
 
 
 .add {
-  box-shadow: 10px 10px 10px var(--computer-color);
+box-shadow: 10px 10px 10px var(--computer-color);
 }
 
 .restart {
-  color: var(--primary-color);
+color: var(--primary-color);
 }
 
 
-  /* HIDE THE ELEMENTS */
-  .hidden {
-    display: none;
-  }
+
+/* HIDING THE ELEMENTS */
+.hidden {
+  display: none;
+}
