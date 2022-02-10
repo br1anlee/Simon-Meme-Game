@@ -13,7 +13,7 @@
 
 body {
     text-align: center;
-    background-image: url("./images/nyan.gif");
+    background-image: url("../images/nyan.gif");
     background-size: 380px auto;
     background-repeat: repeat;
 }
@@ -83,25 +83,25 @@ body {
   }
 
 .red {
-    background-image: url(/images/kid.jpeg);
+    background-image: url(../images/kid.jpeg);
     background-size: 100%;  
     /* background-color: red; */
 
   }
   
   .green {
-    background-image: url(/images/dog.jpeg);
+    background-image: url(..images/dog.jpeg);
     background-size: 100%;
     /* background-color: green; */
   }
   
   .blue {
-    background-image: url(/images/google.jpeg);
+    background-image: url(../images/google.jpeg);
     background-size: 100%;
   }
   
   .yellow {
-    background-image: url(/images/toby.png);
+    background-image: url(../images/toby.png);
     background-size: 100%;
   }
   
