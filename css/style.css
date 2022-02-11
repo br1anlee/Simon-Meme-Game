@@ -55,6 +55,8 @@ font-weight: bold;
 .instructions {
 margin: 200px;
 font-size: 24px;
+list-style-type: none;
+
 }
 
 .returnButton {
@@ -63,6 +65,8 @@ color: var(--primary-color);
 font-weight: bold;
 font-size: 32px;
 }
+
+
 
 /* GAMEBOARD */
 

@@ -18,10 +18,22 @@ The tech that is involved in this project is HTML, CSS and Javascript.
 ---
 ![wireframe](./images/wireframe.jpg)
 
+![wireframe](./images/startMenu.png)
+
 
 ### Stretch Goals
 ---
-- Have the 4 responsive buttons make different sound when clicked
 - Create a timer
+- Have the 4 responsive buttons make different sound when clicked
 - Create a quit button and once the button is clicked a popup will appear asking the user again if they want to quit the game (a picture of a meme will be under that)
 - Adding background music & SFX to all elements (Add an option button that has a mute all music function.)
+
+
+### Code Highlight
+--- 
+![wireframe](./images/codehighlight.png)
+
+### Resources
+---
+- https://stackoverflow.com/questions/25681166/trying-to-detect-the-enter-key-in-js
+
