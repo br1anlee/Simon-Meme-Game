@@ -14,6 +14,7 @@ The tech that is involved in this project is HTML, CSS and Javascript.
 - Create 4 responsive buttons for the player to click (Each button will have a picture of a MEME).
 - Background image with an image gif.
 - Create a max of 10 sequences for the game. If player matches 10 sequences, player will win.
+- Picture of a meme for the cursor
 
 
 ### Wireframe

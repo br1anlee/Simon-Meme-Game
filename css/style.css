@@ -2,13 +2,14 @@
 * {
   padding: 0px;
   margin: 0px;
-  cursor: pointer;
+  cursor: var(--computer-cursor);
 }
 
 :root {
   --primary-color: orange;
   --primary-cursor: pointer;
   --computer-color: green;
+  --computer-cursor: url(/images/cursor.png), auto;
 }
 
 body {
@@ -35,14 +36,14 @@ body {
   text-align: center;
   margin: 120px auto;
   font-size: 3rem;
-  cursor: var(--primary-cursor);
+  cursor: var(--computer-cursor);
 }
 
 .instruction {
   text-align: center;
   margin: 60px auto;
   font-size: 3rem;
-  cursor: var(--primary-cursor);
+  cursor: var(--computer-cursor);
   bottom: 16px;
 }
 
@@ -61,7 +62,7 @@ list-style-type: none;
 }
 
 .returnButton {
-cursor: var(--primary-cursor);
+cursor: var(--computer-cursor);
 color: var(--primary-color);
 font-weight: bold;
 font-size: 32px;
