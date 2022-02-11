@@ -33,7 +33,7 @@ body {
 
 .playButton {
   text-align: center;
-  margin: 150px auto;
+  margin: 120px auto;
   font-size: 3rem;
   cursor: var(--primary-cursor);
 }
@@ -43,6 +43,7 @@ body {
   margin: 60px auto;
   font-size: 3rem;
   cursor: var(--primary-cursor);
+  bottom: 16px;
 }
 
 /* CSS FOR INSTRUCTION SCREEN */
