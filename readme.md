@@ -1,7 +1,7 @@
 # THE MEME SIMON GAME
 ## Project Summary
 ---
-Have you ever wondered how good your memorization skill is? If you were wondering, The MEME Simon Game is here to help you test your memorization skill!! The game will create a series of buttons lighting up and the player will be required to repeat the sequence. If the player succeeds, the series will become progressively longer and more complex. If the player fails to match the sequence the game will be over.
+Have you ever wondered how good your memorization skill is? If you were wondering, The MEME Simon Game is here to help you test your memorization skill!! The game will create a series of buttons lighting up and the player will be required to repeat the sequence. f the player succeeds, the series will become progressively longer and more complex. If the player fails to match the sequence the game will be over.
 ### The Tech 
 ---
 The tech that is involved in this project is HTML, CSS and Javascript.
@@ -12,11 +12,11 @@ The tech that is involved in this project is HTML, CSS and Javascript.
 - Render game screen displaying the game status that includes the level. If a player either wins or loses the game, a text will be displayed on the game status screen.
 - Create 4 responsive buttons for the player to click (Each button will have a picture of a MEME)
 - Background image with an image gif
-- Create a max of 10 sequences for the game.
+- Create a max of 10 sequences for the game. If player matches 10 sequences, player will win.
 
 ### Wireframe
 ---
-![wireframe](./images/IMG_0941.jpg)
+![wireframe](./images/wireframe.jpg)
 
 
 ### Stretch Goals
