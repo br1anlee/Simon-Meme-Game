@@ -30,6 +30,9 @@ The tech that is involved in this project is HTML, CSS and Javascript.
 - Have the 4 responsive buttons make different sound when clicked
 - Create a quit button and once the button is clicked a popup will appear asking the user again if they want to quit the game (a picture of a meme will be under that)
 - Adding background music & SFX to all elements (Add an option button that has a mute all music function.)
+- Make the game accessible to ALL devices. (As of right now it only supports Macbook Pro.)
+- Change the fonts to comic sans.
+- Change the button background (when click) into a more appealing color.
 
 
 ### Code Highlight
