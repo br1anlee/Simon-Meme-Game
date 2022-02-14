@@ -61,7 +61,7 @@ function pressEnter () {
             gameStarted = true;
             levelTitle.innerText = "Level " + level
             nextSequence()
-        }
+        } 
     })
 }
 
@@ -85,16 +85,23 @@ function nextSequence() {
 const button = document.querySelectorAll(".btn")
 
 for (let i = 0; i < button.length; i++) {
+    if (gameStarted = false) {
+        levelTitle.innerText = "Please press Enter to start!"
+    }
     button[i].addEventListener('click',function() {
         let color = button[i].id;
         playerClickedColor.push(color); 
-        checkGame();
+        checkGame()
        })
 }
 
 // Game win conditional
 function checkGame () {
-    if (gamePattern[buttonInputRequirementLevel - 1] === playerClickedColor[buttonInputRequirementLevel - 1])
+    // Prevents loss from happening if player clicks a button without starting the actual game
+    if (gamePattern.length === 0 && playerClickedColor.length >= 1) {
+        return noGame()
+    }
+    else if (gamePattern[buttonInputRequirementLevel - 1] === playerClickedColor[buttonInputRequirementLevel - 1])
      {
     } 
     else 
@@ -118,7 +125,6 @@ function checkGame () {
 
 
 function winGame () {
-
     levelTitle.innerText = "You win!!"
     restart.classList.remove('hidden')
     gameStarted = false;
@@ -131,7 +137,6 @@ function loseGame () {
     level = 0
     gameStarted = false;
     restart.classList.remove('hidden');
-    
 }
 
 // Restart Button that clears the board and the array
@@ -145,3 +150,7 @@ restart.addEventListener('click', function () {
     startGameMenu()
 })
 
+function noGame () {
+    levelTitle.innerText = "Please press enter to start the game!"
+    levelTitle.style.color = "white";
+}

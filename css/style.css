@@ -3,6 +3,8 @@
   padding: 0px;
   margin: 0px;
   cursor: var(--computer-cursor);
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+
 }
 
 :root {
@@ -27,7 +29,7 @@ body {
 }
 
 .titleMenu {
-  font-size: 5rem;  
+  font-size: 6rem;  
   text-align: center; 
   font-weight: bold;
 }
@@ -35,14 +37,14 @@ body {
 .playButton {
   text-align: center;
   margin: 120px auto;
-  font-size: 3rem;
+  font-size: 2rem;
   cursor: var(--computer-cursor);
 }
 
 .instruction {
   text-align: center;
   margin: 60px auto;
-  font-size: 3rem;
+  font-size: 2rem;
   cursor: var(--computer-cursor);
   bottom: 16px;
 }
@@ -122,7 +124,7 @@ font-size: 32px;
 
 
 #levelTitle {
-color: var(--primary-color);
+color: white;
 font-size: 2rem;
 }
 
@@ -135,11 +137,12 @@ border-width: 10px;
 
 
 .add {
-box-shadow: 10px 10px 10px var(--computer-color);
+box-shadow: 10px 10px 10px red;
 }
 
 .restart {
 color: var(--primary-color);
+cursor: pointer;
 }
 
 
