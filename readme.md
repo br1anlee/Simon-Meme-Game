@@ -19,7 +19,12 @@ The tech that is involved in this project is HTML, CSS and Javascript.
 
 ### Wireframe
 ---
-![wireframe](./images/wireframe.jpg)
+<details>
+  <summary> Wireframe </summary>
+
+Wireframe
+![Wireframe](./images/wireframe.jpg)
+</details>
 
 
 ### Stretch Goals
@@ -31,16 +36,6 @@ The tech that is involved in this project is HTML, CSS and Javascript.
 - Make the game accessible to ALL devices. (As of right now it only supports Macbook Pro.)
 - Change the fonts to comic sans.
 - Change the button background (when click) into a more appealing color.
-
-
-###  Wireframe
----
-<details>
-  <summary> Wireframe </summary>
-
-Wireframe
-![Wireframe](./images/wireframe.jpg)
-</details>
 
 ### Resources
 ---
