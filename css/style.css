@@ -2,7 +2,6 @@
 * {
   padding: 0px;
   margin: 0px;
-  /* cursor: var(--computer-cursor); */
   font-family: "Comic Sans MS", "Comic Sans", cursive;
 
 }
@@ -11,7 +10,6 @@
   --primary-color: white;
   --primary-cursor: pointer;
   --computer-color: green;
-  /* --computer-cursor: url(/images/cursor.png), auto; */
 }
 
 body {
@@ -98,32 +96,20 @@ body {
   padding: 20px;
 }
 
-.row {
-  display: block;
-}
 
 .red {
-  /* background-image: url(../images/kid.jpeg); */
-  background-size: 100%;  
   background-color: red;
-
 }
 
 .green {
-  /* background-image: url(../images/dog.jpeg); */
-  background-size: 100%;
   background-color: green;
 }
 
 .blue {
-  /* background-image: url(../images/google.jpeg); */
-  background-size: 100%;
   background-color: blue;
 }
 
 .yellow {
-  /* background-image: url(../images/toby.png); */
-  background-size: 100%;
   background-color: yellow;
 }
 

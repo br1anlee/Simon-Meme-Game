@@ -37,7 +37,13 @@ The tech that is involved in this project is HTML, CSS and Javascript.
 
 ### Code Highlight
 --- 
-![wireframe](./images/codehighlight.png)
+
+<details>
+  <summary> Wireframe </summary>
+
+Wireframe
+![Wireframe](./images/wireframe.jpg)
+</details>
 
 ### Resources
 ---
