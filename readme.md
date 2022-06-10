@@ -39,9 +39,9 @@ Wireframe
 
 ### Resources
 ---
-- https://stackoverflow.com/questions/25681166/trying-to-detect-the-enter-key-in-js
+https://stackoverflow.com/questions/25681166/trying-to-detect-the-enter-key-in-js
 
 
 ### Link to the Game
 --- 
-- https://br1anlee.github.io/project-1/
+https://simon-meme.netlify.app/
