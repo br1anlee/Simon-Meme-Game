@@ -21,8 +21,6 @@ The tech that is involved in this project is HTML, CSS and Javascript.
 ---
 ![wireframe](./images/wireframe.jpg)
 
-![wireframe](./images/startMenu.png)
-
 
 ### Stretch Goals
 ---
@@ -35,9 +33,8 @@ The tech that is involved in this project is HTML, CSS and Javascript.
 - Change the button background (when click) into a more appealing color.
 
 
-### Code Highlight
---- 
-
+###  Wireframe
+---
 <details>
   <summary> Wireframe </summary>
 
