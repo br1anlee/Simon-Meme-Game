@@ -152,3 +152,24 @@ font-size: 2rem;
 .hidden {
   display: none;
 }
+
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+
+  .titleMenu {
+    font-size: 2rem;
+  }
+  .simon-logo {
+    padding: 10px;
+  }
+  .instructions {
+    top: 70%;
+    font-size: 16px;
+  }
+
+  .returnButton {
+    font-size: 16px;
+    top: 90%;
+  }
+}
