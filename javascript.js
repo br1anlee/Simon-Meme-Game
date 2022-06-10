@@ -16,12 +16,15 @@ let level = 0
 // Button inputs requirement to input depending on the level
 let buttonInputRequirementLevel = 1
 // When clicking start button, game board pops while the main menu screen disappears
+const simonLogo = document.querySelector('.simon-logo')
 const playButton = document.querySelector('.playButton')
 const instructionBtn = document.querySelector('.instruction')
 const gameBoard = document.querySelector('#gameBoard')
+
 function startGameMenu () {
     playButton.classList.add('hidden');
     instructionBtn.classList.add('hidden');
+    simonLogo.classList.add('hidden');
     gameBoard.classList.remove('hidden');
     pressEnter()
 }
@@ -45,6 +48,7 @@ function returnPageMenu () {
     instructionBtn.classList.remove('hidden');
     returnButton.classList.add('hidden');
     instructionScreen.classList.add('hidden');
+    simonLogo.classList.remove('hidden');
     gameBoard.classList.add('hidden');
 }
 // Event listeners for the instruction page and return button

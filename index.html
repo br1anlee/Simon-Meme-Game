@@ -6,14 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
     
-    <title>MEME Simon Game</title>
+    <title>Simon Says Game</title>
 </head>
 <body>
   <!-- DIV that contains EVERYTHING FROM MENU TO THE GAME ITSELF -->
  <div class="gameArea">
    <div class="mainMenu">
      <!-- Title Of the Game -->
-    <div class="titleMenu">MEME Simon Game</div>
+    <div class="titleMenu">Simon Says Game</div>
+    <img  class="simon-logo" src="/images/simon.png" alt="Simon Says logo">
     <!-- Play Button -->
     <div class="playButton">Start Game</div>
     <!-- Instruction Button -->
@@ -23,12 +24,13 @@
 
     <!-- Instruction Page -->
     <div class="instructionScreen hidden">
-      <ul class="instructions">
+        <p class="instructions">Simon will give you the first signal. Repeat the signal by pressin the same picture. Simon will duplicate the first signal and add one. Repeat these two signals by pressing the same picture in order. Continue playing as long as you can repeat each sequence of signals correctly. If you fail to repeat the sequence exactly you will lose!</p>
+      <!-- <ul class="instructions">
         <li>Simon will give you the first signal. Repeat the signal by pressing the same picture.</li>
         <li>Simon will duplicate the first signal and add one. Repeat these two signals by pressing the same picture in order.</li>
         <li>Continue playing as long as you can repeat each sequence of signals correctly.</li>
         <li>If you fail to repeat the sequence exactly you will lose!</li>
-      </ul>
+      </ul> -->
       <!-- Return button to go back to the Main menu -->
       <div class="returnButton">Return</div>
     </div>

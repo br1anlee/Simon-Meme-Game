@@ -2,7 +2,7 @@
 * {
   padding: 0px;
   margin: 0px;
-  cursor: var(--computer-cursor);
+  /* cursor: var(--computer-cursor); */
   font-family: "Comic Sans MS", "Comic Sans", cursive;
 
 }
@@ -11,14 +11,12 @@
   --primary-color: white;
   --primary-cursor: pointer;
   --computer-color: green;
-  --computer-cursor: url(/images/cursor.png), auto;
+  /* --computer-cursor: url(/images/cursor.png), auto; */
 }
 
 body {
   text-align: center;
-  background-image: url("../images/nyan.gif");
-  background-size: 1000px auto;
-  /* background-repeat: repeat; */
+  background-color: #000080;
 }
 
 /* CSS FOR MAIN MENU */
@@ -29,49 +27,56 @@ body {
 }
 
 .titleMenu {
-  font-size: 6rem;  
+  font-size: 3rem;  
   text-align: center; 
   font-weight: bold;
 }
 
+.simon-logo {
+  padding: 20px;
+}
+
 .playButton {
   text-align: center;
-  margin: 120px auto;
   font-size: 2rem;
-  cursor: var(--computer-cursor);
+  cursor: pointer;
+  padding: 10px;
 }
 
 .instruction {
   text-align: center;
-  margin: 60px auto;
   font-size: 2rem;
-  cursor: var(--computer-cursor);
-  bottom: 16px;
+  cursor: pointer;
+  padding: 10px;
 }
 
 /* CSS FOR INSTRUCTION SCREEN */
 .instructionScreen {
-color: var(--primary-color);
-font-weight: bold;
+  color: var(--primary-color);
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-
 .instructions {
-margin: 200px;
-font-size: 24px;
-list-style-type: none;
-border: 2px solid black;
-background-color: green;
-width: 80%;
-
-
+  font-size: 24px;
+  color: white;
+  margin: auto;
+  position: absolute;
+  top: 70%;
+  bottom: 50%;
 }
 
 .returnButton {
-cursor: var(--computer-cursor);
-color: var(--primary-color);
-font-weight: bold;
-font-size: 32px;
+  cursor: pointer;
+  color: var(--primary-color);
+  font-weight: bold;
+  font-size: 32px;
+  padding: 5px;
+  position: absolute;
+  top: 75%;
 }
 
 
@@ -87,7 +92,7 @@ font-size: 32px;
 .btn {
   margin: 25px;
   display: inline-block;
-  height: 200px;
+  height: 150px;
   width: 200px;
   border: 5px solid black;
   padding: 20px;
@@ -95,30 +100,31 @@ font-size: 32px;
 
 .row {
   display: block;
-
 }
 
 .red {
-  background-image: url(../images/kid.jpeg);
+  /* background-image: url(../images/kid.jpeg); */
   background-size: 100%;  
-  /* background-color: red; */
+  background-color: red;
 
 }
 
 .green {
-  background-image: url(../images/dog.jpeg);
+  /* background-image: url(../images/dog.jpeg); */
   background-size: 100%;
-  /* background-color: green; */
+  background-color: green;
 }
 
 .blue {
-  background-image: url(../images/google.jpeg);
+  /* background-image: url(../images/google.jpeg); */
   background-size: 100%;
+  background-color: blue;
 }
 
 .yellow {
-  background-image: url(../images/toby.png);
+  /* background-image: url(../images/toby.png); */
   background-size: 100%;
+  background-color: yellow;
 }
 
 
@@ -130,7 +136,7 @@ font-size: 32px;
 
 #levelTitle {
 color: white;
-font-size: 2rem;
+font-size: 36px;
 margin: 30px;
 }
 
